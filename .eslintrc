@@ -10,7 +10,11 @@
     "require-jsdoc": "off",
     "object-curly-spacing": "off",
     "arrow-parens": "off",
-    "operator-linebreak": "off"
+    "operator-linebreak": "off",
+    "no-trailing-spaces": "off",
+    "keyword-spacing": "off",
+    "eol-last": "off",
+    "max-len": "off"
   },
   "extends": [
     "eslint:recommended",
