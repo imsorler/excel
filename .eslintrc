@@ -14,7 +14,8 @@
     "no-trailing-spaces": "off",
     "keyword-spacing": "off",
     "eol-last": "off",
-    "max-len": "off"
+    "max-len": "off",
+    "indent": "off"
   },
   "extends": [
     "eslint:recommended",
