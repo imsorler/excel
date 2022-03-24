@@ -6,7 +6,19 @@
     "node": true
   },
   "rules": {
-    "semi": "off"
+    "semi": "off",
+    "require-jsdoc": "off",
+    "object-curly-spacing": "off",
+    "arrow-parens": "off",
+    "operator-linebreak": "off",
+    "no-trailing-spaces": "off",
+    "keyword-spacing": "off",
+    "eol-last": "off",
+    "max-len": "off",
+    "indent": "off"
   },
-    "extends": ["eslint:recommended", "google"]
+  "extends": [
+    "eslint:recommended",
+    "google"
+  ]
 }
