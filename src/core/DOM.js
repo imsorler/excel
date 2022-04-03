@@ -13,6 +13,10 @@ class DOM {
     return this.$el.outerHTML.trim()
   }
 
+  get data() {
+    return this.$el.dataset
+  }
+
   clear() {
     this.html('')
     return this
@@ -44,6 +48,10 @@ class DOM {
 
   off(eventType, callback) {
     this.$el.removeEventListener(eventType, callback)
+  }
+
+  findAll(selector) {
+    return this.$el.querySelectorAll(selector)
   }
 }
 
