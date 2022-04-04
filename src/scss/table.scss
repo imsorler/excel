@@ -65,7 +65,8 @@
     }
   }
 
-  .col-resize, .row-resize {
+  .col-resize,
+  .row-resize {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -73,7 +74,7 @@
     opacity: 0;
 
     &:hover {
-      opacity: 1;
+      opacity: 1 !important;
       cursor: col-resize;
     }
   }
